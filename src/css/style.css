@@ -1,5 +1,6 @@
 body, html{
     height: 100%;
+    background-color:white;
 }
 
 .gamerow{
@@ -13,10 +14,33 @@ body, html{
 
 .tile{
     border:1px solid black;
-    visibility: hidden;
+    opacity:0;
+    transition: opacity ease 0.2s;
     cursor:pointer;
 }
 
 #gameOver{
-    display:none;
+    display: none;
+}
+
+.red{
+    background-color:red;
+}
+.black{
+    background-color: black;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.white{
+    background-color: white;
+}
+.blue{
+    background-color: blue;
+}
+.done{
+    background-color: darkgray;
 }
